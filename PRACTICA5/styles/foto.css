@@ -1,0 +1,39 @@
+
+#album-view img{ 
+    border: 1px solid darkorchid;
+    margin: 5px;
+    margin-top: 10px;
+    margin-block-end: 20px;
+    padding : 5px;
+    min-height: 15px;
+    
+}/*clase #*/
+
+#modal-view{
+    position: absolute;
+    top : 5;
+    left : 5;
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: rgba(190, 80, 190, 0.9);
+    z-index: 2;/*capa (0, background), ... (n, frontfront)*/
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-view img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+
+
+
